@@ -109,15 +109,11 @@ Frontend runs on:
 
 http://localhost:5173
 
-SCREENSHOTS::::
-
-
-<img width="1902" height="981" alt="Screenshot 2026-01-16 210818" src="https://github.com/user-attachments/assets/a98f7f9b-f171-4a3d-a2b5-786c0c5a8971" />
-<img width="1909" height="982" alt="Screenshot 2026-01-16 210829" src="https://github.com/user-attachments/assets/39735400-74b8-4742-9910-a14c2b196ca2" />
+FIND SCREENSHOTS FOLDER TO SEE THE DEMO ::
 
 
 
-<img width="1871" height="960" alt="Screenshot 2026-01-16 200911" src="https://github.com/user-attachments/assets/ab9135f7-f438-4448-884e-96cb30acb11b" /><img width="1902" height="982" alt="Screenshot 2026-01-16 210807" src="https://github.com/user-attachments/assets/7464800b-7e17-482a-8128-b4c732f5676a" />
 
-<img width="1406" height="978" alt="Screenshot 2026-01-16 210855" src="https://github.com/user-attachments/assets/bc320970-78b0-4470-8be8-f0d205765ae3" />
+
+
 
