@@ -1,0 +1,289 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
+
+body {
+    margin: 0;
+    background-color: #242424;
+}
+
+#root {
+    width: 100%;
+}
+
+/* --- Auth Form Styling --- */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.auth-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.btn-primary {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: #646cff;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #535bf2;
+}
+
+.btn-secondary {
+    padding: 0.5rem 1rem;
+    border: 1px solid #646cff;
+    background-color: transparent;
+    color: #646cff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #646cff;
+    color: white;
+}
+
+.error-message {
+    color: #ff6b6b;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.success-message {
+    color: #51cf66;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.auth-switch {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.auth-switch a {
+    color: #646cff;
+    text-decoration: none;
+}
+
+/* --- Dashboard Styling --- */
+.dashboard-header {
+    background-color: #2c2c2c;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dashboard-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.dashboard-content h2 {
+    margin-bottom: 2rem;
+}
+
+.dashboard-content h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.search-bar select {
+    padding: 0.75rem;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Store List & Card */
+.store-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.store-card {
+    background-color: #2c2c2c;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.store-card h3 {
+    margin: 0;
+}
+
+.store-address {
+    color: #aaa;
+    flex-grow: 1;
+}
+
+.store-rating-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.rating-input-area {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.rating-input-area select {
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.rating-input-area .btn-primary {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* --- Store Owner & Admin Dashboard --- */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stats-card {
+    background-color: #2c2c2c;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stats-card h3 {
+    margin-top: 0;
+    color: #aaa;
+    font-size: 1rem;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #646cff;
+    margin: 0;
+}
+
+.table-container {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    overflow-x: auto; /* For responsiveness */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+thead {
+    background-color: #333;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:hover {
+    background-color: #3a3a3a;
+}
